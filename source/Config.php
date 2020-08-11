@@ -13,3 +13,5 @@ define("DATA_LAYER_CONFIG", [
         PDO::ATTR_CASE => PDO::CASE_NATURAL
     ]
 ]);
+
+define("WEB_PAGE","http://localhost/MKitchen");
