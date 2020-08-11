@@ -10,18 +10,14 @@
             "role" : "Developer"
         }
     ],
-    "config": {
-        "vendor-dir": "vendor"
-    },
     "autoload": {
         "psr-4": {
             "Source\\":"source/"
-        }
+        },
+        "files": [
+            "source/Config.php"
+        ]
     },
-    "files":[
-        "source/Config.php"
-    ],
-    "minimum-stability": "alpha",
     "require": {
         "coffeecode/datalayer": "^1.1",
         "coffeecode/router": "^1.0"
